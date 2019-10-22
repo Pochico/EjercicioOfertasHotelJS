@@ -1,0 +1,148 @@
+a[title^="Hosted"]{display: none;}
+
+
+
+
+
+
+body{
+	font-family: 'DM Sans', sans-serif;
+}
+#cont{
+	width: 950px;
+	margin: 0px auto;
+	color: darkred;
+	text-shadow: 0px 2px 2px snow;
+}
+#cont2{
+	width: 950px;
+	min-height: 500px;
+	background-color: ;
+	text-align: center;
+	overflow: hidden;
+}
+#fecen{
+	float: left;
+	width: 50%;
+}
+#fecsa{
+	float: left;
+	width: 50%;
+}
+label{
+	display: inline-block;
+	width: 200px;
+}
+input{
+	display: inline-block;
+	width: 200px;
+}
+
+#norm{background-image: url('../images/hot4.jpg');}
+
+
+#high{background-image: url('../images/hot3.jpg');}
+
+
+#pretty{background-image: url('../images/hot1.jpg');}
+
+
+#deluxe{background-image: url('../images/hot2.jpg');}
+
+#confirm{
+	margin-top: 100px;
+	height: 100px;
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(184,125,184,1) 52%, rgba(140,66,140,1) 91%, rgba(163,63,163,1) 100%);
+	border: 0px;
+	outline: none;
+	border-radius: 10px;
+}
+
+#separator{
+	float: left;
+	width: 100%;
+	height: 3px;
+	background-color: indianred;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.rooms:hover{
+	box-shadow: inset 0px 0px 10px black;
+	
+}
+.rooms{
+	transition: all .4s;
+	float: left;
+	width: 50%;
+	height: 375px;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+#personas{
+	padding-bottom: 10px;
+}
+
+.probacion{
+	margin: 20px;
+}
+#back{
+	opacity: 0;
+	transition: .5s;
+}
+#next{
+	transition: .5s;
+}
+#eso{
+	width: 200%;
+	height: 750px;
+	float: left;
+	transition: .4s;
+}
+#habitaciones{
+	width: 50%;
+	height: 750px;
+	float: left;
+}
+#gris{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(246,246,246,0.5) 47%, rgba(237,237,237,0.5) 100%);
+	display: none;
+}
+#lamodal{
+	width: 75%;
+	height: 50%;
+	background-color: snow;
+	box-shadow: 0px 0px 15px lightsteelblue;
+	margin: 100px auto;
+	display: none;
+	text-align: center;
+}
+#formulito{
+	color: snow;
+	text-shadow: none;
+	width: 50%;
+	height: 750px;
+	float: left;
+	background: linear-gradient(to bottom, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+}
+.descuen{
+	margin-top: 50px;
+}
+.valores{
+	margin-top: 10px;
+}
+
+
+
+
+.prices{
+	width: 100%;
+	height: 20px;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+	margin-top: 350px;
+	transition: .3s;
+}
